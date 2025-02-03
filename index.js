@@ -29,6 +29,4 @@ app.use("/", ClothesRouter);
 app.use("/", UserRouter);
 app.use("/", OrderRouter)
 // mohab Abc*24681
-app.listen(port, () => {
-  console.log(`ForeverBuy app listening on port ${port}`);
-});
+module.exports=app;
